@@ -6,8 +6,8 @@ import java.util.List;
 public class SecurityConstants {
 
     public static final List<String> allowed = Arrays.asList(
-            "/users",
-            "/users/**",
-            "/cars",
-            "/cars/**");
+            "/api/v1/users",
+            "/api/v1/users/**",
+            "/api/v1/cars",
+            "/api/v1/cars/**");
 }
